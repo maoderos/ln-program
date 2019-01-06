@@ -18,9 +18,8 @@ int main () {
         float num = pow(-1, i)*pow(x, (i + 1));
         float result = num/(i + 1);
         sum = sum + result;
-        printf("%f ", sum);
       }
-      printf("%f ", sum);
+      printf("ln(1 + %f) = %f ", x, sum);
     }
   }
   return 0;
